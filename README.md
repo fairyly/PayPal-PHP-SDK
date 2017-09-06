@@ -84,7 +84,7 @@ Read [here](CONTRIBUTING.md) for more information.
 ## 接入步骤
 
 * [1.安装 PHPSDK](https://github.com/paypal/PayPal-PHP-SDK/wiki)
-  - Using Composer  OR Using Direct Download
+  - Using Composer  OR Using Direct Download
 * [2.Making First Call](https://github.com/paypal/PayPal-PHP-SDK/wiki/Making-First-Call)
 * [3.Adding Configurations](https://github.com/paypal/PayPal-PHP-SDK/wiki/Adding-Configurations)
 * [4.run Samples](https://github.com/paypal/PayPal-PHP-SDK/wiki/Samples)
