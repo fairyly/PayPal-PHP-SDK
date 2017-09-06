@@ -57,3 +57,34 @@ Read [here](CONTRIBUTING.md) for more information.
    * [API Reference](https://developer.paypal.com/webapps/developer/docs/api/)
    * [Reporting Issues / Feature Requests](https://github.com/paypal/PayPal-PHP-SDK/issues)
    * [Pizza App Using Paypal REST API](https://github.com/paypal/rest-api-sample-app-php)
+   
+   
+   
+   
+-------------------------------------------
+
+
+# new add(自己新加部分)
+
+* [下载phpSDK](https://github.com/paypal/PayPal-PHP-SDK/releases)
+* [PHP SDK HOME PAGE](https://paypal.github.io/PayPal-PHP-SDK/)
+* [Sample Source Codes代码](http://paypal.github.io/PayPal-PHP-SDK/sample/)
+* [PayPal-PHP-SDK（V1.7.4）支付接口实现](http://blog.csdn.net/alexander_phper/article/details/52057524)
+
+* paypal支付接口准备工作
+
+  - 首先去申请一个paypal账号，https://www.paypal.com/。
+  - 申请完毕并登录，进入https://developer.paypal.com/developer/accounts/。即可看到你申请账号自动配属的两个测试账号，账号类别分别是：BUSINESS和     PERSONAL，PERSONAL的账号里面有$9999，测试费用，表激动。
+  - 下面去给两个账号设置密码，点击账号展开，然后点击Profile，会弹出账号信息框，里面可以设置密码等一堆属性。如果点击账号始终无法展开，请吐槽下           paypal，然后F5再点。
+  - 下面进入https://developer.paypal.com/developer/applications/申请APP，点击REST API apps栏目下面的Create App按钮，写进一个APP名称，然后选择     一个测试账户作为此APP绑定的账号，如果你在上一步没有申请新的测试账号，那么这里默认就是选择了BUSINESS账号。
+  - 然后打开创建的APP，可以看到APP的clientId和clientSecret。
+    paypal的测试环境域名为sandbox.paypal.com，正式域名为www.paypal.com。一下测试均为测试环境。
+  - 至此准备工作差不多了，开始动代码。
+
+## 接入步骤
+
+* [1.安装 PHPSDK](https://github.com/paypal/PayPal-PHP-SDK/wiki)
+  - Using Composer  OR Using Direct Download
+* [2.Making First Call](https://github.com/paypal/PayPal-PHP-SDK/wiki/Making-First-Call)
+* [3.Adding Configurations](https://github.com/paypal/PayPal-PHP-SDK/wiki/Adding-Configurations)
+* [4.run Samples](https://github.com/paypal/PayPal-PHP-SDK/wiki/Samples)
